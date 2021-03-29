@@ -1,0 +1,137 @@
+/****************************
+        RESSETER 
+*****************************/
+*{
+    margin: 0;
+    padding: 0;
+}
+/****************************
+        OUTLINE 
+*****************************/
+body *{
+    /* outline: 1.5px solid black; */
+    font-size: 1.3rem;
+}
+
+/****************************
+        MAIN HEADER 
+*****************************/
+.mainHeader{
+    background-color: #0071DC;
+    margin: 0px auto;
+    display: block;
+    width: 1366px;
+    height: 4.3em;
+}
+    .mainHeader img {
+        display: inline-block;
+        margin: 17px 0px 0px 39px;;
+        width: 200px;
+    }
+    .mainHeader .rightHeader {
+            display: inline-block;
+            margin: 4px 0px 0px 496px;
+            vertical-align: top;
+            width: 623px;
+            text-align: center;
+            align-content: center;
+        }
+        .rightHeader span {
+            display: inline-block;
+            font-size: 13px;
+            font-weight: bold;
+            color: white;
+            vertical-align: top;
+        }
+            .rightHeader img {
+                margin: 26px 0px 0px 0px;
+                background-color: red;
+                width: 26px;
+               
+            }
+
+            ul {
+                display: inline-block;
+                list-style-type: none;
+                font-size: bold;
+                font-weight: bold;
+                color: wheat;
+                margin: 0px 0px 0px 297px;
+                width: 115px;
+            }
+            span.divLine {
+                font-size: 22px;
+                display: inline-block;
+                color: #3d3434;
+                vertical-align: top;
+                font-size: 48px;
+                height: 23px;
+            }
+
+            .fas.fa-shopping-cart {
+                display: block;
+                margin: -42px 20px 0px 1277px;
+                font-size: 40px;
+                color: #eeeeee;
+            }
+
+        span.search {
+            display: block;
+            margin: -44px 0px 0px 300px;
+            background-color: #b2b2b2;
+            text-align: center;
+            border-radius: 19px;
+            width: 790px;
+            height: 50px;
+        }
+            span.search input[type="text"] {
+                border: none;
+                padding: 0px 0px 0px 11px;
+                width: 608px;
+                height: 48px;
+                display: inline-block;  
+            }
+            span.fas.fa-caret-down {
+                display: inline-block;
+                margin: 0px 17px 0px 0px;
+                color: #6d86cf;
+            }
+            span.fas.fa-search {
+                display: inline-block;
+                background-color: #efd322;
+                margin: 0px 0px 0px -6px;
+                padding: 14px;
+                width: 71px;
+                border-top-right-radius: 17px;
+                border-bottom-right-radius: 17px;
+            }
+img.try {
+    display: block;
+    margin: 36px auto;
+    border-radius: 15px;
+}
+    
+
+/****************************
+       RESPONSIVE
+*****************************/
+
+@media only screen  and (max-width: 780px) {
+    .mainHeader{
+        display: block;
+        width: 100vw;
+        height: 4.3em;
+        text-align: center;
+    }
+        .mainHeader .rightHeader {
+            display: none;
+        }
+        .mainHeader img {
+            display: inline-block;
+            margin: 0px auto;
+            width: 200px;
+        }
+        span.search{
+            display: none;
+        }
+}
